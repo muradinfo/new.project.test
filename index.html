@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murad Far From Home</title>
+    <link rel="icon" href="img/icon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="myFunction()">
+    <div class="preload">
+        <img src="img/preload.gif">
+    </div>
+    <div class="container animate-bottom" id="myContainer">
+        <div class="row">
+            <div class="main-col col-row-left">
+                <div class="sub-col sub-col-1">
+                    <div class="layer">
+                        <img src="img/bick.jpeg" alt="">
+                        <p>Photo by <a href="https://www.facebook.com/muradhossen907" target="_blank">Murad</a></p>
+                    </div>
+                </div>
+                <div class="sub-col sub-col-2"></div>
+            </div>
+            <div class="main-col col-row-right">
+                <div class="bg-hero">
+                    <h1 class="title">Murad Far From Home</h1>
+                    <div class="short-details">
+                        <div class="dutline">
+                            <span></span>
+                        </div>
+                        <div class="bio">
+                            <p>When talking about real dirt bikes that come from the factory with license plates, there are only three brands that offer said machines. Out of those three,</p>
+                            <a class="btn" href="https://www.youtube.com/channel/UC2zd8rr7I2pkwgHVoSMtxdQ" target="_blank">WATCH VIDEO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2022 Created by Fx-907</p>
+        </div>
+    </div>
+
+    <script>
+        function myFunction(){
+            var myVar = setTimeout(showPage, 2000);
+        }
+
+        function showPage(){
+            document.querySelector('.preload').style.display = "none";
+            // document.querySelector('#myContainer').style.opacity = "1";
+        }
+    </script>
+</body>
+</html>
